@@ -1,6 +1,6 @@
 ISC License
 
-Copyright (c) 2022, Abir Majumdar <abirismyname@github.com> (https://github.com/abirismyname)
+Copyright (c) 2022, Chad Bentz <felickz@github.com> (https://github.com/felickz)
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above

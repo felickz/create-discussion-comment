@@ -15,8 +15,8 @@ jobs:
         run: echo "DATE=$(date "+%m/%d/%Y")" >> $GITHUB_ENV
 
       - name: Generate new discussion
-        id: create-discussion
-        uses: abirismyname/create-discussion@dev
+        id: create-discussion-comment
+        uses: felickz/create-discussion-comment@dev
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
         with:

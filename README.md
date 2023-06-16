@@ -1,21 +1,21 @@
-# Create-Discussion
+# create-discussion-comment
 
-Create a new GitHub Discussion with GitHub Actions
+Create a new GitHub Discussion Comment with GitHub Actions
 
- ![](https://github.com/abirismyname/create-discussion/workflows/tests/badge.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+ ![](https://github.com/felickz/create-discussion-comment/workflows/tests/badge.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## About
 
-This action allows you to create a new GitHub Discussion with GitHub Actions.
+This action allows you to create a new GitHub Discussion Comment with GitHub Actions.
 
 ## Usage
 
-In your workflow, to create a new discussion, include a step like this:
+In your workflow, to create a new discussion comment, include a step like this:
 
 ```yaml
     - name: Create a new GitHub Discussion
-      id: create-discussion
-      uses: abirismyname/create-discussion@v1.x
+      id: create-discussion-comment
+      uses: felickz/create-discussion-comment@v1.x
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
       with:
@@ -26,8 +26,8 @@ In your workflow, to create a new discussion, include a step like this:
         category-id: ${{ secrets.CAT_ID }}  
     - name: Print discussion url and id
       run: |
-        echo discussion-id: ${{steps.create-discussion.outputs.discussion-id}} 
-        echo discussion-url: ${{steps.create-discussion.outputs.discussion-url}}             
+        echo discussion-id: ${{steps.create-discussion-comment.outputs.discussion-id}} 
+        echo discussion-url: ${{steps.create-discussion-comment.outputs.discussion-url}}             
 ```
 
 ## Inputs
@@ -70,9 +70,9 @@ This action provides the following outputs:
 
 ## Example
 
-This repo contains an example [workflow](https://github.com/abirismyname/create-discussion/blob/main/.github/workflows/example.yml) that contains this action.
+This repo contains an example [workflow](https://github.com/felickz/create-discussion-comment/blob/main/.github/workflows/example.yml) that contains this action.
 
 ## Credits
 
-- :bow: Based on [swinton/commit](https://github.com/swinton/commit).
-- :bow: [@imjohnbo](imjohnbo) for the inspiration.
+- :bow: Based on [abirismyname/create-discussion](https://github.com/abirismyname/create-discussion).
+- :bow: [@abirismyname](https://github.com/abirismyname) for the inspiration.

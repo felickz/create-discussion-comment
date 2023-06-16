@@ -1,5 +1,5 @@
 {
-  "name": "@abirismyname/create-discussion",
+  "name": "@felickz/create-discussion-comment",
   "version": "1.1.0",
   "description": "Create a new GitHub Discussion with GitHub Actions",
   "main": "dist/index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abirismyname/create-discussion.git"
+    "url": "git+https://github.com/felickz/create-discussion-comment.git"
   },
   "keywords": [],
-  "author": "Abir Majumdar <abirismyname@github.com> (https://github.com/abirismyname)",
+  "author": "Chad Bentz <felickz@github.com> (https://github.com/felickz)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abirismyname/create-discussion/issues"
+    "url": "https://github.com/felickz/create-discussion-comment/issues"
   },
-  "homepage": "https://github.com/abirismyname/create-discussion#readme",
+  "homepage": "https://github.com/felickz/create-discussion-comment#readme",
   "devDependencies": {
     "@types/jest": "^26.0.19",
     "@types/node": "^14.14.10",

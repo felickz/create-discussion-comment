@@ -15,8 +15,8 @@ jobs:
         run: echo "DATE=$(date "+%m/%d/%Y")" >> $GITHUB_ENV
       - uses: actions/checkout@v3
       - name: Generate new discussion
-        id: create-discussion
-        uses: abirismyname/create-discussion@v1.1.0
+        id: create-discussion-comment
+        uses: felickz/create-discussion-comment@v1.1.0
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
         with:
@@ -27,8 +27,8 @@ jobs:
           category-id: 'DIC_kwDOG-yfv84CRQpR' 
 
       - name: Generate new discussion using file
-        id: create-discussion-with-file
-        uses: abirismyname/create-discussion@v1.1.0
+        id: create-discussion-comment-with-file
+        uses: felickz/create-discussion-comment@v1.1.0
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
         with:

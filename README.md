@@ -13,7 +13,7 @@ This action allows you to create a new GitHub Discussion Comment with GitHub Act
 In your workflow, to create a new discussion comment, include a step like this:
 
 ```yaml
-    - name: Create a new GitHub Discussion
+    - name: Create a new GitHub Discussion Comment
       id: create-discussion-comment
       uses: felickz/create-discussion-comment@v1.x
       env:

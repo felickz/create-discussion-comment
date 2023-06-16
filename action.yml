@@ -1,5 +1,5 @@
-name: Create GitHub Discussion
-description: GitHub Action to create a new GitHub Discussion
+name: Create GitHub Discussion Comment
+description: GitHub Action to create a new GitHub Discussion Comment
 inputs:
   title:
     description: |
